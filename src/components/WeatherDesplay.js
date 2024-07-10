@@ -1,4 +1,4 @@
-// src/components/WeatherDisplay.js
+
 import React from 'react';
 
 function WeatherDisplay({ weather }) {

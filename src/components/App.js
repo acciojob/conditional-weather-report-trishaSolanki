@@ -4,7 +4,7 @@ import './../styles/App.css';
 
 // src/components/App.js
 import React, { useState, useEffect } from 'react';
-import WeatherDisplay from '././WeatherDesplay';
+import WeatherDisplay from './WeatherDesplay';
 
 function App() {
   const [weather, setWeather] = useState({ temperature: 0, conditions: '' });
