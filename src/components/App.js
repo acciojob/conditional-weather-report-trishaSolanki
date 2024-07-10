@@ -1,8 +1,5 @@
 
-import React from "react";
 import './../styles/App.css';
-
-// src/components/App.js
 import React, { useState, useEffect } from 'react';
 import WeatherDisplay from './WeatherDesplay';
 
