@@ -2,12 +2,12 @@ import React from 'react';
 
 function WeatherDisplay({ weather }) {
   const { temperature, conditions } = weather;
-  const temperatureColor = temperature > 20 ? 'red' : 'blue';
+  const temperatureColor = temperature > 20 ? 'rgb(255,0,0)' : 'blue';
 
   return (
     <div>
-      <p style={{ color: temperatureColor }}>Temperature: {temperature}</p>
-      <span>Conditions: {conditions}</span>
+     <span style={{ color: temperatureColor }}>Temperature: {temperature}</span> <br></br>
+     <span>Conditions: {conditions}</span>
     </div>
   );
 }
